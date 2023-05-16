@@ -29,8 +29,10 @@ const lista = [
     }
 ]
 
+const pessoaFiltrada = lista.filter()
+
+
 const listaFiltrada = lista.filter(
-    (pessoa) => pessoa.idade <= 20
-)
+    (pessoa) => pessoa.idade > 20)
 
 console.log(listaFiltrada)
